@@ -1,0 +1,22 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+.background{
+    background-image: url(../img/funny-carton_540381-5701.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    height: 70vh;
+    position: relative;
+}
+.background .text{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+footer{display: -webkit-box;display: -ms-flexbox;display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+background-color: rgba(27, 11, 11, 0.5);}
